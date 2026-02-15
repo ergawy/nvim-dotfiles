@@ -70,4 +70,7 @@ tnoremap <Esc> <C-\><C-n>
 "inoremap <esc> <nop>
 
 nnoremap ` :noh<cr>
+
 au BufRead,BufNewFile *.mlir set filetype=mlir
+au BufRead,BufNewFile *.h.inc set filetype=c
+au BufRead,BufNewFile *.ll set filetype=llvm

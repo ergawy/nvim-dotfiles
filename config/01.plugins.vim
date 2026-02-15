@@ -23,6 +23,7 @@ if dein#load_state('~/.cache/dein')
     call dein#add('vim-airline/vim-airline')
     call dein#add('vim-airline/vim-airline-themes')
     call dein#add('ycm-core/YouCompleteMe', {'merged': 0})
+    call dein#add('NLKNguyen/papercolor-theme')
 
 	" Required:
 	call dein#end()
