@@ -3,8 +3,8 @@
 
 " language server commands
 let g:LanguageClient_serverCommands = {
-            \ 'cpp': ['/usr/local/opt/llvm/bin/clangd'],
-            \ 'c': ['/usr/local/opt/llvm/bin/clangd'],
+            \ 'cpp': ['/home/kergawy/tools/clangd_22.1.0/bin/clangd'],
+            \ 'c': ['/home/kergawy/tools/clangd_22.1.0/bin/clangd'],
             \ 'python': ['/Users/ergawy/Library/Python/2.7/bin/pyls'],
             \ 'rust': ['rustup', 'run', 'stable', 'rls'],
             \ 'haskell': ['hie-wrapper']

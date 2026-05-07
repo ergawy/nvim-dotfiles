@@ -1,3 +1,13 @@
+let s:dein_dir = expand('~/.cache/dein')
+let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
+
+" Download dein if it's missing
+if !isdirectory(s:dein_repo_dir)
+  echo "Downloading dein.vim..."
+  call system('mkdir -p ' . shellescape(s:dein_repo_dir))
+  call system('git clone https://github.com/Shougo/dein.vim ' . shellescape(s:dein_repo_dir))
+endif
+
 " Required:
 set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
